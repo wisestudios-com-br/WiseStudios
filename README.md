@@ -9,10 +9,10 @@
     <img src="src/images/logo.png" alt="Logo" height="80">
   </a>
 
-  <h3 align="center">Plataforma do Observatório de Hardware</h3>
+  <h3 align="center">WISE Studios</h3>
 
   <p align="center">
-    Website da WISEStudios
+    Website da WISE Studios
     <br />
     <br />
     <a href="https://wisestudios.com.br">Visit website</a>
