@@ -4,7 +4,7 @@
   "version": "1.0.0",
   "author": "JGabriel Gruber,  Hunter Chang",
   "private": true,
-  "homepage": "https://wisetudios.com.br",
+  "homepage": "https://wisestudios-com-br.github.io/WiseStudios",
   "dependencies": {
     "eslint": "^7.7.0",
     "gatsby": "^2.19.5",
