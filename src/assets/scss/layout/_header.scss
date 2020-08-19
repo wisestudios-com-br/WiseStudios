@@ -69,10 +69,10 @@
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
 
-    .icon {
-      &:before {
-        font-size: 2rem;
-      }
+    .img {
+        width: 5.5em;
+        height: 5.5em;
+        padding: 0.5em;
     }
   }
 
