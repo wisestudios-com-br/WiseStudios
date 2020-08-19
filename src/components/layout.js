@@ -9,13 +9,13 @@ const Layout = ({ children, location }) => {
 
   let content;
 
-  if (location && location.pathname === '/') {
+  //if (location && location.pathname === '/') {
     content = (
       <div>
         {children}
       </div>
     )
-  } else {
+  /*} else {
     content = (
       <div id="wrapper" className="page">
         <div>
@@ -23,7 +23,7 @@ const Layout = ({ children, location }) => {
         </div>
       </div>
     )
-  }
+  }*/
 
   return (
     <StaticQuery
