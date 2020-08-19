@@ -68,11 +68,10 @@
     line-height: 5.5rem;
     border: solid _size(border-width) _palette(border);
     border-radius: 100%;
+    font-family: 'Alex Brush', cursive;
 
-    .img {
-        width: 5.5em;
-        height: 5.5em;
-        padding: 0.5em;
+    .icon {
+     font-size: 2rem;
     }
   }
 
@@ -223,9 +222,7 @@
       line-height: 4.75rem;
 
       .icon {
-        &:before {
-          font-size: 1.75rem;
-        }
+        font-size: 1.75rem;
       }
     }
 
