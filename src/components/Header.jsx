@@ -8,11 +8,9 @@ const Header = props => (
     </div>
     <div className="content">
       <div className="inner">
-        <h1>WISEStudios</h1>
+        <h1>WISE Studios</h1>
         <p>
-          O melhor da tecnologia
-          <br />
-          com integridade.
+          O melhor da tecnologia com integridade.
         </p>
       </div>
     </div>
@@ -33,7 +31,7 @@ const Header = props => (
               props.onOpenArticle('work')
             }}
           >
-            Work
+            Serviços
           </button>
         </li>
         <li>
@@ -42,7 +40,7 @@ const Header = props => (
               props.onOpenArticle('about')
             }}
           >
-            About
+            Sobre
           </button>
         </li>
         <li>
@@ -51,7 +49,7 @@ const Header = props => (
               props.onOpenArticle('contact')
             }}
           >
-            Contact
+            Contato
           </button>
         </li>
       </ul>
