@@ -37,7 +37,6 @@ class Main extends React.Component {
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
             convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
-            By the way, check out my <a href="#work">awesome work</a>.
           </p>
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
@@ -62,7 +61,7 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Work</h2>
+          <h2 className="major">Serviços</h2>
           <span className="image main">
             <img src={pic02} alt="" />
           </span>
@@ -91,18 +90,20 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">About</h2>
+          <h2 className="major">Sobre</h2>
           <span className="image main">
             <img src={pic03} alt="" />
           </span>
           <p>
-            Lorem ipsum dolor sit amet, consectetur et adipiscing elit. Praesent
-            eleifend dignissim arcu, at eleifend sapien imperdiet ac. Aliquam
-            erat volutpat. Praesent urna nisi, fringila lorem et vehicula
-            lacinia quam. Integer sollicitudin mauris nec lorem luctus ultrices.
-            Aliquam libero et malesuada fames ac ante ipsum primis in faucibus.
-            Cras viverra ligula sit amet ex mollis mattis lorem ipsum dolor sit
-            amet.
+            A WISE Studios traz para seu negócio Marketing, Tecnologia e Design,
+            nunca paramos de inovar e buscar novos desafios.
+            <br/>
+            Nós queremos transforma sua experiência em RESULTADOS com planejamento,
+            comprometimento e Integridade em tudo que fazemos assim fidelizando nossos clientes
+            e ajudando a atingir seus objetivos.
+            <br/>
+            Seguimos um processo que faz com que tenhamos melhores resultados para assim
+            conseguir fazer nossos clientes ter a melhor experiencia.
           </p>
           {close}
         </article>
@@ -114,51 +115,59 @@ class Main extends React.Component {
           }`}
           style={{ display: 'none' }}
         >
-          <h2 className="major">Contact</h2>
+          <h2 className="major">Contato</h2>
           <form method="post" action="#">
             <div className="field half first">
-              <label htmlFor="name">Name</label>
+              <label htmlFor="name">Nome</label>
               <input type="text" name="name" id="name" />
             </div>
             <div className="field half">
-              <label htmlFor="email">Email</label>
+              <label htmlFor="email">E-mail</label>
               <input type="text" name="email" id="email" />
             </div>
             <div className="field">
-              <label htmlFor="message">Message</label>
+              <label htmlFor="message">Mensagem</label>
               <textarea name="message" id="message" rows="4"></textarea>
             </div>
             <ul className="actions">
               <li>
-                <input type="submit" value="Send Message" className="special" />
+                <input type="submit" value="Enviar Mensagem" className="special" />
               </li>
               <li>
-                <input type="reset" value="Reset" />
+                <input type="reset" value="Redefinir" />
               </li>
             </ul>
           </form>
           <ul className="icons">
             <li>
               <a
-                href="https://twitter.com/HuntaroSan"
+                href="https://twitter.com/"
                 className="icon fa-twitter"
               >
                 <span className="label">Twitter</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-facebook">
+              <a href="https://facebook.com" className="icon fa-facebook">
                 <span className="label">Facebook</span>
               </a>
             </li>
             <li>
-              <a href="https://codebushi.com" className="icon fa-instagram">
+              <a href="https://instagram.com" className="icon fa-instagram">
                 <span className="label">Instagram</span>
               </a>
             </li>
             <li>
               <a
-                href="https://github.com/codebushi/gatsby-starter-dimension"
+                href="https://wa.me/5547997402365"
+                className="icon fa-whatsapp"
+              >
+                <span className="label">Whatsapp</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://github.com/wisestudios-com-br"
                 className="icon fa-github"
               >
                 <span className="label">GitHub</span>
