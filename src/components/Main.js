@@ -1,8 +1,6 @@
 import PropTypes from 'prop-types'
 import React from 'react'
-import pic01 from '../images/pic01.jpg'
-import pic02 from '../images/pic02.jpg'
-import pic03 from '../images/pic03.jpg'
+import pic from '../images/about.jpg'
 
 class Main extends React.Component {
   render() {
@@ -29,28 +27,37 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Intro</h2>
-          <span className="image main">
-            <img src={pic01} alt="" />
-          </span>
           <p>
             Aenean ornare velit lacus, ac varius enim ullamcorper eu. Proin
             aliquam facilisis ante interdum congue. Integer mollis, nisl amet
             convallis, porttitor magna ullamcorper, amet egestas mauris. Ut
             magna finibus nisi nec lacinia. Nam maximus erat id euismod egestas.
           </p>
-          <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Duis
-            dapibus rutrum facilisis. Class aptent taciti sociosqu ad litora
-            torquent per conubia nostra, per inceptos himenaeos. Etiam tristique
-            libero eu nibh porttitor fermentum. Nullam venenatis erat id
-            vehicula viverra. Nunc ultrices eros ut ultricies condimentum.
-            Mauris risus lacus, blandit sit amet venenatis non, bibendum vitae
-            dolor. Nunc lorem mauris, fringilla in aliquam at, euismod in
-            lectus. Pellentesque habitant morbi tristique senectus et netus et
-            malesuada fames ac turpis egestas. In non lorem sit amet elit
-            placerat maximus. Pellentesque aliquam maximus risus, vel sed
-            vehicula.
-          </p>
+          <div className="cards">
+            <div className="card">
+              <h3>Missão</h3>
+              <p>
+                Trazer o melhor conteúdo atual para o desenvolvimento do seu
+                site e marketing digital, assim melhorando o SEO(mecanismo de busca)
+                podendo apresentar resultados através de analises.
+              </p>
+            </div>
+            <div className="card">
+              <h3>Visão</h3>
+              <p>
+                Torna a sua presença web de maneira fácil e objetiva ao qual esperamos
+                realizar e assim criando parcerias duradoura.
+              </p>
+            </div>
+            <div className="card">
+              <h3>Valores</h3>
+              <p>
+                Comprometimento;<br />
+                Integridade;<br />
+                Confiança.<br />
+              </p>
+            </div>
+          </div>
           {close}
         </article>
 
@@ -62,24 +69,39 @@ class Main extends React.Component {
           style={{ display: 'none' }}
         >
           <h2 className="major">Serviços</h2>
-          <span className="image main">
-            <img src={pic02} alt="" />
-          </span>
-          <p>
-            Adipiscing magna sed dolor elit. Praesent eleifend dignissim arcu,
-            at eleifend sapien imperdiet ac. Aliquam erat volutpat. Praesent
-            urna nisi, fringila lorem et vehicula lacinia quam. Integer
-            sollicitudin mauris nec lorem luctus ultrices.
-          </p>
-          <p>
-            Nullam et orci eu lorem consequat tincidunt vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus pharetra.
-            Pellentesque condimentum sem. In efficitur ligula tate urna.
-            Maecenas laoreet massa vel lacinia pellentesque lorem ipsum dolor.
-            Nullam et orci eu lorem consequat tincidunt. Vivamus et sagittis
-            libero. Mauris aliquet magna magna sed nunc rhoncus amet feugiat
-            tempus.
-          </p>
+          <div className="cards">
+            <div className="card">
+              <span className="icon fa-desktop"></span>
+              <h3>WEB Sites</h3>
+              <p>
+                Atuamos no desenvolvimento web voltado para as novas tendencias e mercados
+                com o melhor em SEO e Mobile.
+              </p>
+            </div>
+            <div className="card">
+            <span className="icon fa-shopping-cart"></span>
+              <h3>E-commerce</h3>
+              <p>
+                Ajudamos você a vender seus produtos com oque há de melhor no universo
+                dos E-commerce.
+              </p>
+            </div>
+            <div className="card">
+              <span className="icon fa-server"></span>
+              <h3>Hospedagem</h3>
+              <p>
+                Tecnologia de ponta com responsabilidade mantendo seus sites e e-mails
+                funcionando sempre.
+              </p>
+            </div>
+            <div className="card">
+              <span className="icon fa-search"></span>
+              <h3>Suporte</h3>
+              <p>
+                Conte com nós! Temos um suporte personalizado e com qualidade.
+              </p>
+            </div>
+          </div>
           {close}
         </article>
 
@@ -92,16 +114,18 @@ class Main extends React.Component {
         >
           <h2 className="major">Sobre</h2>
           <span className="image main">
-            <img src={pic03} alt="" />
+            <img src={pic} alt="" />
           </span>
           <p>
             A WISE Studios traz para seu negócio Marketing, Tecnologia e Design,
             nunca paramos de inovar e buscar novos desafios.
-            <br/>
+          </p>
+          <p>
             Nós queremos transforma sua experiência em RESULTADOS com planejamento,
             comprometimento e Integridade em tudo que fazemos assim fidelizando nossos clientes
             e ajudando a atingir seus objetivos.
-            <br/>
+          </p>
+          <p>
             Seguimos um processo que faz com que tenhamos melhores resultados para assim
             conseguir fazer nossos clientes ter a melhor experiencia.
           </p>
