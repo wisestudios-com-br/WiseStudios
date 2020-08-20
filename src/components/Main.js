@@ -95,7 +95,7 @@ class Main extends React.Component {
               </p>
             </div>
             <div className="card">
-              <span class="icon fa-search"></span>
+              <span className="icon fa-search"></span>
               <h3>Suporte</h3>
               <p>
                 Conte com nós! Temos um suporte personalizado e com qualidade.
