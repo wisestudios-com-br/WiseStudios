@@ -41,8 +41,9 @@ const Layout = ({ children, location }) => {
           <Helmet
             title={data.site.siteMetadata.title}
             meta={[
-              { name: 'description', content: 'WISE Stiudios site' },
-              { name: 'keywords', content: 'wise, studios, wise studios, desenvolvimento, agencia, site' },
+              { name: 'description', content: 'Consultoria e desenvolvimento de soluções em TI.' },
+              { name: 'keywords', content: 'wise, studios, wise studios, desenvolvimento, agencia, site, consultoria, ti' },
+              { httpEquiv: 'Content-Type', content: 'text/html; charset=utf-8' },
             ]}
           >
             <html lang="pt-br" />
